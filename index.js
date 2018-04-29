@@ -111,4 +111,4 @@ if (command === 'kick') {
 
 })
 
-bot.login("NDM5MTM1MjEyNDg4NzUzMTcz.DcZ1tQ.mBW_4-VBaVjlduzvjn2s_pAdJ70");
+bot.login(process.env.TOKEN);
