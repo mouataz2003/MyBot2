@@ -2,7 +2,6 @@ const Discord = require('discord.js')
 const bot = new Discord.Client()
 const config = require('./config.json')
 const { prefix, token } = require('./config.json')
-const YoutubeStream = require('ytdl-core')
 
 
 
