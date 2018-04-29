@@ -1,7 +1,7 @@
 const Discord = require('discord.js')
 const bot = new Discord.Client()
 const config = require('./config.json')
-const { prefix, token } = require('./config.json')
+const { prefix } = require('./config.json')
 const YoutubeStream = require('ytdl-core')
 
 
@@ -111,4 +111,4 @@ if (command === 'kick') {
 
 })
 
-bot.login(token);
+bot.login("NDM5MTM1MjEyNDg4NzUzMTcz.DcZ1tQ.mBW_4-VBaVjlduzvjn2s_pAdJ70");
